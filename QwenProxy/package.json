@@ -1,0 +1,14 @@
+{
+  "name": "qwen-proxy",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible proxy for chat.qwen.ai, locked to the qwen3.8-max-preview model.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
